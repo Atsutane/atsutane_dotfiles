@@ -1,0 +1,7 @@
+
+[roxterm options]
+colour_scheme=taters
+encoding=UTF-8
+profile=at_profile
+shortcut_scheme=custom
+warn_close=1
