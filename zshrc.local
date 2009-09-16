@@ -1,0 +1,22 @@
+# PS1 and PS2
+export PS1="$(print '$(parse_git_branch)[%{\e[1;37m%}%M%{\e[0m%}'):$(print '%{\e[0;31m%}%~%{\e[0m%}')]$ "
+export PS2="$(print '%{\e[0;31m%}>%{\e[0m%}')"
+export PSPDEV="/usr/local/pspdev"
+export PATH=$PATH:$PSPDEV/bin:/home/atsutane/.bin
+export OOO_FORCE_DESKTOP=gnome
+export KEYID="295AFBF4"
+export VISUAL=vim
+
+function getinet () {
+#   if [ $(ifconfig wlan0 | grep "inet addr:" | cut -d ":" -f 2 | cut -d " " -f1) ]; then
+#      echo "$(ifconfig wlan0 | grep "inet addr:" | cut -d ":" -f 2 | cut -d " " -f1) @wlan0"
+#   fi
+   if [ $(ifconfig eth0 | grep "inet addr:" | cut -d ":" -f 2 | cut -d " " -f1) ]; then
+      echo "$(ifconfig eth0 | grep "inet addr:" | cut -d ":" -f 2 | cut -d " " -f1) @eth0"
+   fi
+}
+
+function parse_git_branch() {
+    print "%{\e[1;34m%}$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')%{\e[0m%}\n"
+}
+
