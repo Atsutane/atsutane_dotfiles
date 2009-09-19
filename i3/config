@@ -104,14 +104,14 @@ bindsym $win+Shift+e exit
 bindsym $win+Shift+r restart
 
 # Names of workspaces
-name 1 Code
-name 2 Doc
-name 3 Mail
-name 4 IM
-name 5 Web
-name 6 Tool1
-name 7 Tool2
-name 8 Tool3
+workspace 1 "Code"
+workspace 2 "Doc"
+workspace 3 "Mail"
+workspace 4 "IM"
+workspace 5 "Web"
+workspace 6 "Tool1"
+workspace 7 "Tool2"
+workspace 8 "Tool3"
 
 #Assignments regarding workspaces
 assign "Navigator" 5
