@@ -15,11 +15,13 @@
 !
 
 clear mod3
-keycode 113 = Mode_switch
+keycode 108 = Mode_switch
 keycode 94 = script_switch
-keycode 115 = Super_L Multi_key Super_L Multi_key Super_L Multi_key
+keycode 133 = Super_L Multi_key Super_L Multi_key Super_L Multi_key
 add mod3 = Mode_switch
 add mod3 = script_switch
+
+keycode 9 = Escape
 
 keycode 49 = grave asciitilde U203C mu
 keycode 10 = 1 exclam onesuperior onehalf
@@ -73,3 +75,25 @@ keycode 60 = period greater U2026 U2022
 keycode 61 = slash question questiondown exclamdown
 
 keycode 65 = space space nobreakspace U2009
+
+keycode 67 = F1 XF86_Switch_VT_1
+keycode 68 = F2 XF86_Switch_VT_2
+keycode 69 = F3 XF86_Switch_VT_3
+keycode 70 = F4 XF86_Switch_VT_4
+keycode 71 = F5 XF86_Switch_VT_5
+keycode 72 = F6 XF86_Switch_VT_6
+keycode 73 = F7 XF86_Switch_VT_7
+keycode 74 = F8 XF86_Switch_VT_8
+keycode 75 = F9 XF86_Switch_VT_9
+keycode 76 = F10 XF86_Switch_VT_10
+
+keycode 95 = F11 XF86_Switch_VT_11
+keycode 96 = F12 XF86_Switch_VT_12
+
+keycode 111 = Up
+keycode 113 = Left
+keycode 114 = Right
+keycode 115 = End
+keycode 116 = Down
+
+
