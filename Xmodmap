@@ -1,0 +1,75 @@
+!
+!  eu_US
+!
+!  A keyboard layout for european languages, mainly German, French,
+!  Spanish, Portugese and Dutch, based on the US-keyboard.
+!
+!  (c) 2006 Jonathan Schleifer
+!
+!  WARNING:
+!    Some characters will need applications that support Unicode or
+!    UTF-8!
+!
+!  Suggestions to:
+!    js-xmodmap@webkeks.org
+!
+
+clear mod3
+keycode 113 = Mode_switch
+keycode 94 = script_switch
+keycode 115 = Super_L Multi_key Super_L Multi_key Super_L Multi_key
+add mod3 = Mode_switch
+add mod3 = script_switch
+
+keycode 49 = grave asciitilde U203C mu
+keycode 10 = 1 exclam onesuperior onehalf
+keycode 11 = 2 at twosuperior onequarter
+keycode 12 = 3 numbersign threesuperior threequarters
+keycode 13 = 4 dollar U03B1 onethird
+keycode 14 = 5 percent U03B2 twothirds
+keycode 15 = 6 asciicircum copyright U03B3
+keycode 16 = 7 ampersand registered U03B4
+keycode 17 = 8 asterisk trademark U2030
+keycode 18 = 9 parenleft U03A9 OE
+keycode 19 = 0 parenright degree oe
+keycode 20 = minus underscore macron plusminus
+keycode 21 = equal plus notequal U2248
+
+keycode 24 = q Q aacute Aacute
+keycode 25 = w W agrave Agrave
+keycode 26 = e E EuroSign cent
+keycode 27 = r R eacute Eacute
+keycode 28 = t T egrave Egrave
+keycode 29 = y Y iacute Iacute
+keycode 30 = u U udiaeresis Udiaeresis
+keycode 31 = i I igrave Igrave
+keycode 32 = o O odiaeresis Odiaeresis
+keycode 33 = p P thorn THORN
+keycode 34 = bracketleft braceleft ocircumflex Ocircumflex
+keycode 35 = bracketright braceright guillemotleft guillemotright
+
+keycode 38 = a A adiaeresis Adiaeresis
+keycode 39 = s S ssharp U2190
+keycode 40 = d D ediaeresis Ediaeresis
+keycode 41 = f F ecircumflex Ecircumflex
+keycode 42 = g G uacute Uacute
+keycode 43 = h H ugrave Ugrave
+keycode 44 = j J idiaeresis Idiaeresis
+keycode 45 = k K icircumflex Icircumflex
+keycode 46 = l L oacute Oacute
+keycode 47 = semicolon colon ograve Ograve
+keycode 48 = apostrophe quotedbl U201E U201D
+keycode 51 = backslash bar U201C U2048
+
+keycode 52 = z Z acircumflex Acircumflex
+keycode 53 = x X ydiaeresis U2192
+keycode 54 = c C ccedilla Ccedilla
+keycode 55 = v V lessthanequal greaterthanequal
+keycode 56 = b B ucircumflex Ucircumflex
+keycode 57 = n N ntilde Ntilde
+keycode 58 = m M ae AE
+keycode 59 = comma less periodcentered U03C0
+keycode 60 = period greater U2026 U2022
+keycode 61 = slash question questiondown exclamdown
+
+keycode 65 = space space nobreakspace U2009
