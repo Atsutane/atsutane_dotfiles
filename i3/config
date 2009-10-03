@@ -122,4 +122,4 @@ assign "midori" 5
 
 # Autostart
 exec fbsetbg /home/atsutane/.wallpaper
-exec sudo i3status -c ~/.i3/i3status.conf | dzen2 -fg white -fn "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1" -ta r -w 750 -x 530 -y 1012
+exec sudo i3status -c ~/.i3/i3status.conf | dzen2 -fg white -fn "-misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1" -ta r -w 782 -x 498 -y 1010
