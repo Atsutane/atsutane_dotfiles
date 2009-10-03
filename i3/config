@@ -105,10 +105,10 @@ bindsym $win+Shift+r restart
 
 # Names of workspaces
 workspace 1 "Net"
-workspace 2 "Mail"
-workspace 3 "IM"
-workspace 4 "Web"
-workspace 5 "Web"
+workspace 2 "IM"
+workspace 3 "Mail"
+workspace 4 "Web1"
+workspace 5 "Web2"
 workspace 6 "Code"
 workspace 7 "Util"
 workspace 8 "Tool"
