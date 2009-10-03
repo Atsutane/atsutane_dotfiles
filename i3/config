@@ -115,7 +115,10 @@ workspace 8 "Tool"
 workspace 9 "Media"
 
 #Assignments regarding workspaces
-assign "Navigator" 5
+assign "gajim.py" 2
+assign "claws-mail" 3
+assign "Navigator" 4
+assign "midori" 5
 
 # Autostart
 exec fbsetbg /home/atsutane/.wallpaper
