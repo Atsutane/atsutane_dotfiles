@@ -104,14 +104,15 @@ bindsym $win+Shift+e exit
 bindsym $win+Shift+r restart
 
 # Names of workspaces
-workspace 1 "Code"
-workspace 2 "Doc"
-workspace 3 "Mail"
-workspace 4 "IM"
+workspace 1 "Net"
+workspace 2 "Mail"
+workspace 3 "IM"
+workspace 4 "Web"
 workspace 5 "Web"
-workspace 6 "Tool1"
-workspace 7 "Tool2"
-workspace 8 "Tool3"
+workspace 6 "Code"
+workspace 7 "Util"
+workspace 8 "Tool"
+workspace 9 "Media"
 
 #Assignments regarding workspaces
 assign "Navigator" 5
@@ -119,4 +120,4 @@ assign "Navigator" 5
 # Autostart
 exec evrouter /dev/input/event1
 exec fbsetbg /home/atsutane/.wallpaper
-exec sudo i3status | dzen2 -fg white -fn "-misc-fixed-medium-r-normal--11-120-75-75-C-70-iso8859-1" -ta r -w 1280 -dock
+exec sudo i3status -c ~/.i3/i3status.conf | dzen2 -fg white -fn "-misc-fixed-medium-r-normal--11-120-75-75-C-70-iso8859-1" -ta r -w 1280 -dock
