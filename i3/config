@@ -1,7 +1,7 @@
 # This configuration uses $alt and Mod3. Make sure they are mapped properly using xev(1)
 # and xmodmap(1). Usually, $alt is Alt (Alt_L) and Mod3 is Windows (Super_L)
 
-terminal /usr/bin/roxterm
+terminal /usr/bin/urxvt
 
 # ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--10-100-75-75-C-60-iso10646-1
