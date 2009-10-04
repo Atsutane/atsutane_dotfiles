@@ -89,7 +89,7 @@ bind $win+Shift+18 m9
 bind $win+Shift+19 m10
 
 # $win+Enter starts a new terminal
-bind $win+36 exec /usr/bin/roxterm
+bind $win+36 exec /usr/bin/urxvt
 
 # $win+Shift+q kills the current client
 bind $win+Shift+24 kill
