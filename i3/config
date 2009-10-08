@@ -1,7 +1,7 @@
 # This configuration uses $alt and Mod3. Make sure they are mapped properly using xev(1)
 # and xmodmap(1). Usually, $alt is Alt (Alt_L) and Mod3 is Windows (Super_L)
 
-terminal /usr/bin/roxterm
+terminal /usr/bin/urxvt
 
 # ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -89,7 +89,7 @@ bind $win+Shift+18 m9
 bind $win+Shift+19 m10
 
 # $win+Enter starts a new terminal
-bind $win+36 exec /usr/bin/roxterm
+bind $win+36 exec /usr/bin/urxvt
 
 # $win+Shift+q kills the current client
 bindsym $win+Shift+q kill
