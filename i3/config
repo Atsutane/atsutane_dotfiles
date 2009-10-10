@@ -119,6 +119,9 @@ assign "gajim.py" 2
 assign "claws-mail" 3
 assign "Navigator" 4
 assign "midori" 5
+assign "player" 9
+assign "playlist" 9
+assign "equalizer" 9
 
 # Autostart
 exec fbsetbg /home/atsutane/.wallpaper
