@@ -115,7 +115,9 @@ workspace 8 "Tool"
 workspace 9 "Media"
 
 #Assignments regarding workspaces
-assign "Navigator" 5
+assign "claws-mail" 3
+assign "Navigator" 4
+assign "midori" 5
 
 # Autostart
 exec evrouter /dev/input/event1
