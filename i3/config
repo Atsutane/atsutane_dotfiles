@@ -19,50 +19,50 @@ bar.focused #2f343a #9E9E9E #000000
 bar.urgent #4c7899 #285577 #ffffff
 
 # Fullscreen ($alt+f)
-bindsym $win+f f
+bind $win+41 f
 
 # Stacking ($win+s)
-bindsym $win+s s
+bind $win+39 s
 
 # Default ($win+e)
-bindsym $win+d d
+bind $win+26 d
 
 # Toggle tiling/floating of the current window($win+Shift+Space)
-bindsym $win+Shift+space t
+bind $win+Shift+65 t
 
 # Go into the tiling layer / floating layer, depending on whether
 # the current window is tiling / floating (Mod1+t)
-bindsym $alt+t focus ft
+bind $alt+28 focus ft
 
-# Focus ($win+h/j/k/l)
-bindsym $win+h h
-bindsym $win+j j
-bindsym $win+k k
-bindsym $win+l l
+# Focus ($win+j/k/l/;)
+bind $win+44 h
+bind $win+45 j
+bind $win+46 k
+bind $win+47 l
 
-# Focus Container (Mod3+h/j/k/l)
-bindsym $alt+h wch
-bindsym $alt+j wcj
-bindsym $alt+k wck
-bindsym $alt+l wcl
+# Focus Container ($alt+j/k/l/;)
+bind $alt+44 wch
+bind $alt+45 wcj
+bind $alt+46 wck
+bind $alt+47 wcl
 
-# Snap ($win+Control+h/j/k/l)
-bindsym $win+Control+h sh
-bindsym $win+Control+j sj
-bindsym $win+Control+k sk
-bindsym $win+Control+l sl
+# Snap ($win+Control+j/k/l/;)
+bind $win+Control+44 sh
+bind $win+Control+45 sj
+bind $win+Control+46 sk
+bind $win+Control+47 sl
 
-# Move ($win+Shift+h/j/k/l)
-bindsym $win+Shift+h mh
-bindsym $win+Shift+j mj
-bindsym $win+Shift+k mk
-bindsym $win+Shift+l ml
+# Move ($win+Shift+j/k/l/;)
+bind $win+Shift+44 mh
+bind $win+Shift+45 mj
+bind $win+Shift+46 mk
+bind $win+Shift+47 ml
 
-# Move Container ($alt+Shift+h/j/k/l)
-bindsym $alt+Shift+h wcmh
-bindsym $alt+Shift+j wcmj
-bindsym $alt+Shift+k wcmk
-bindsym $alt+Shift+l wcml
+# Move Container ($alt+Shift+j/k/l/;)
+bind $alt+Shift+44 wcmh
+bind $alt+Shift+45 wcmj
+bind $alt+Shift+46 wcmk
+bind $alt+Shift+47 wcml
 
 # Workspaces ($win+1/2/…)
 bind $win+10 1
@@ -92,16 +92,16 @@ bind $win+Shift+19 m10
 bind $win+36 exec /usr/bin/urxvt
 
 # $win+Shift+q kills the current client
-bindsym $win+Shift+q kill
+bind $win+Shift+24 kill
 
 # $win+v starts dmenu and launches the selected application
-bindsym $win+v exec /usr/bin/dmenu_run -b -nb '#222222' -nf '#888888' -sb '#900000' -sf '#ffffff'
+bind $win+55 exec /usr/bin/dmenu_run -b -nb '#222222' -nf '#888888' -sb '#900000' -sf '#ffffff'
 
 # $win+Shift+e exits i3
-bindsym $win+Shift+e exit
+bind $win+Shift+26 exit
 
 # $win+Shift+r restarts i3 inplace
-bindsym $win+Shift+r restart
+bind $win+Shift+27 restart
 
 # Names of workspaces
 workspace 1 "Net"
