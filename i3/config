@@ -4,7 +4,7 @@
 terminal /usr/bin/urxvt
 
 # ISO 10646 = Unicode
-font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+font -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
 
 set $alt Mod1
 set $win Mod4
@@ -122,4 +122,4 @@ assign "midori" 5
 # Autostart
 exec evrouter /dev/input/event1
 exec fbsetbg /home/atsutane/.wallpaper
-exec sudo i3status -c ~/.i3/i3status.conf | dzen2 -fg white -fn "-misc-fixed-medium-r-normal--11-120-75-75-C-70-iso8859-1" -ta r -w 1280 -dock
+exec sudo i3status -c ~/.i3/i3status.conf | dzen2 -fg white -fn "-misc-fixed-*-r-normal--10-100-75-75-c-60-iso8859-1" -ta r -w 1280 -dock
