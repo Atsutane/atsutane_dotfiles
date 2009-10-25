@@ -1,5 +1,6 @@
 startup_message off
 autodetach on
+defutf8 on
 altscreen on
 hardstatus off
 hardstatus alwayslastline
