@@ -12,7 +12,6 @@ XTerm*faceSize: 10
 XTerm*font: Monospace:pixelsize=9
 XTerm*boldFont: Bitstream Vera Sans Mono-9:bold
 
-!! Colours as the ones of the Xdefaults aren't set when Xresources is merged
 #include "/home/atsutane/.Xdefaults.d/taters"
 XTerm*color0: COLOUR_THEME_BLACK
 XTerm*color8: COLOUR_THEME_DARK_GREY
