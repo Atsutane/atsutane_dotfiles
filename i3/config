@@ -118,7 +118,8 @@ workspace 9 "Media"
 assign "claws-mail" 3
 assign "Navigator" 4
 assign "midori" 5
-
+assign "eclipse" 6
+assign "Eclipse" 6
 # Autostart
 exec evrouter /dev/input/event1
 exec fbsetbg /home/atsutane/.wallpaper
