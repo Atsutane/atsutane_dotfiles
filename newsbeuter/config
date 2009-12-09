@@ -7,6 +7,7 @@ feed-sort-order "firsttag"
 cleanup-on-quit "yes"
 confirm-exit  "yes"
 refresh-on-startup "yes"
+notify-beep "yes"
 notify-screen "yes"
 max-items 125
 error-log "~/.newsbeuter/error.log"
