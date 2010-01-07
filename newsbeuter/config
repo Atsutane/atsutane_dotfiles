@@ -8,7 +8,7 @@ cleanup-on-quit "yes"
 confirm-exit  "yes"
 refresh-on-startup "yes"
 notify-beep "yes"
-notify-screen "yes"
+notify-screen "no"
 max-items 125
 error-log "~/.newsbeuter/error.log"
 user-agent "newsbeuter"
