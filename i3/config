@@ -19,8 +19,8 @@ bar.urgent #4c7899 #285577 #ffffff
 # Fullscreen ($alt+f)
 bind $win+41 f
 
-# Stacking ($win+s)
-bind $win+39 s
+# Tabbed ($win+s)
+bind $win+39 T
 
 # Default ($win+e)
 bind $win+26 d
