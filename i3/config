@@ -119,9 +119,9 @@ assign "Navigator" 4
 assign "midori" 5
 assign "eclipse" 6
 assign "Eclipse" 6
-assign "player" 9
-assign "playlist" ~9
-assign "equalizer" ~9
+assign "Audacious" 9
+assign "playlist/Audacious Playlist Editor" ~9
+assign "equalizer/Audacious Equalizer" ~9
 
 # Autostart
 exec fbsetbg -t /home/atsutane/.wallpaper
