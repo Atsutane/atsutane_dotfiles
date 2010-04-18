@@ -127,6 +127,7 @@ assign "Eclipse" 6
 assign "Audacious" 9
 assign "playlist/Audacious Playlist Editor" ~9
 assign "equalizer/Audacious Equalizer" ~9
+assign "rhythmbox" 9
 
 # Autostart
 exec fbsetbg -t /home/atsutane/.wallpaper
