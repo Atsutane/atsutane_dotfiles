@@ -6,8 +6,10 @@ font -misc-fixed-medium-r-normal--10-100-75-75-C-60-iso10646-1
 
 set $alt Mod1
 set $win Mod4
-ipc-socket /tmp/i3-ipc.sock
+ipc-socket ~/.i3/ipc.sock
 floating_modifier Mod1
+focus_follows_mouse yes
+workspace_bar yes
 
 #Colors border background text 
 client.focused #2f343a #900000 #ffffff
@@ -100,6 +102,9 @@ bind $win+Shift+26 exit
 
 # $win+Shift+r restarts i3 inplace
 bind $win+Shift+27 restart
+
+# $win+Shift+b toggle border style
+bind $win+Shift+56 bt
 
 # Names of workspaces
 workspace 1 output xinerama-0 Net
