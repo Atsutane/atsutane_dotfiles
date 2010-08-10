@@ -12,7 +12,7 @@ focus_follows_mouse yes
 workspace_bar yes
 
 #Colors					border background text 
-client.focused			#AACCBB #4D4D4D #AACCBB
+client.focused			#4D4D4D #2C2D2E #AACCBB
 client.unfocused		#2C2D2E #2C2D2E #707678
 client.focused_inactive	#2C2D2E #2C2D2E #AACCBB
 client.urgent			#FEA63C #4D4D4D #FFE863
