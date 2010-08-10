@@ -11,12 +11,14 @@ floating_modifier Mod1
 focus_follows_mouse yes
 workspace_bar yes
 
-#Colors border background text 
-client.focused #2f343a #900000 #ffffff
-client.focused_inactive #900000 #555555 #ffffff
-client.urgent #4c7899 #285577 #ffffff
-bar.focused #2f343a #9E9E9E #000000
-bar.urgent #4c7899 #285577 #ffffff
+#Colors					border background text 
+client.focused			#AACCBB #4D4D4D #AACCBB
+client.unfocused		#2C2D2E #2C2D2E #707678
+client.focused_inactive	#2C2D2E #2C2D2E #AACCBB
+client.urgent			#FEA63C #4D4D4D #FFE863
+bar.focused				#AACCBB #4D4D4D #AACCBB
+bar.unfocused			#2C2D2E #2C2D2E #707678
+bar.urgent				#FEA63C #4D4D4D #FFE863
 
 # Fullscreen ($alt+f)
 bind $win+41 f
