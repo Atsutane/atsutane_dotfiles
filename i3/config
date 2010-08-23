@@ -119,7 +119,8 @@ workspace 7 output xinerama-0 Util
 workspace 8 "Tool"
 workspace 9 output xinerama-1 Media
 
-#Assignments regarding workspaces
+# Assignments regarding workspaces
+# Use xprop to get the info
 assign "gajim.py" 2
 assign "claws-mail" 3
 assign "Navigator" 4
@@ -130,6 +131,7 @@ assign "Audacious" 9
 assign "playlist/Audacious Playlist Editor" ~9
 assign "equalizer/Audacious Equalizer" ~9
 assign "rhythmbox" 9
+assign "ufo" ~
 
 # Autostart
 exec fbsetbg -t /home/atsutane/.wallpaper
