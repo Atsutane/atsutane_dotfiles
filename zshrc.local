@@ -1,11 +1,22 @@
 # PS1 and PS2
 export PS1="$(print '$(parse_git_branch)[%{\e[1;37m%}%M%{\e[0m%}'):$(print '%{\e[0;31m%}%~%{\e[0m%}')]$ "
 export PS2="$(print '%{\e[0;31m%}>%{\e[0m%}')"
-export PSPDEV="/usr/local/pspdev"
-export PATH=$PATH:$PSPDEV/bin:/home/atsutane/.bin
+export PATH=$PATH:/home/atsutane/bin
 export OOO_FORCE_DESKTOP=gnome
 export KEYID="295AFBF4"
 export VISUAL=vim
+
+alias createtorrent="createtorrent -a http://denis.stalker.h3q.com -p 6969"
+
+# Edit a temporary file with my template for a C proof-of-concept
+alias cpoc='cd /tmp && FN=$(mktemp --suffix=.c) && cp ~/.poc-template.c $FN && vim $FN && echo "Proof-of-concept stored in $FN"'
+
+# Color output of man | not working yet
+#alias man="TERMINFO=~/.terminfo/ LESS=C TERM=mostlike PAGER=less man"
+
+eval `ssh-agent` > /dev/null
+eval `keychain --eval --nogui -Q -q id_rsa`
+
 
 function getinet () {
 #   if [ $(ifconfig wlan0 | grep "inet addr:" | cut -d ":" -f 2 | cut -d " " -f1) ]; then
@@ -20,3 +31,5 @@ function parse_git_branch() {
     print "%{\e[1;34m%}$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')%{\e[0m%}\n"
 }
 
+
+source ~/.shell_utils/arch_chroot_packaging.sh
