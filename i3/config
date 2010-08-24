@@ -1,8 +1,6 @@
 # This configuration uses $alt and Mod3. Make sure they are mapped properly using xev(1)
 # and xmodmap(1). Usually, $alt is Alt (Alt_L) and Mod3 is Windows (Super_L)
 
-terminal /usr/bin/urxvt
-
 # ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso10646-1
 
@@ -21,8 +19,8 @@ bar.urgent #4c7899 #285577 #ffffff
 # Fullscreen ($alt+f)
 bind $win+41 f
 
-# Stacking ($win+s)
-bind $win+39 s
+# Tabbed ($win+s)
+bind $win+39 T
 
 # Default ($win+e)
 bind $win+26 d
@@ -89,7 +87,7 @@ bind $win+Shift+18 m9
 bind $win+Shift+19 m10
 
 # $win+Enter starts a new terminal
-bind $win+36 exec /usr/bin/urxvt
+bind $win+36 exec /usr/bin/roxterm
 
 # $win+Shift+q kills the current client
 bind $win+Shift+24 kill
