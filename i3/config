@@ -132,6 +132,8 @@ assign "playlist/Audacious Playlist Editor" ~9
 assign "equalizer/Audacious Equalizer" ~9
 assign "rhythmbox" 9
 assign "ufo" ~
+assign "VirtualBox" ~
+assign "Wine" ~
 
 # Autostart
 exec fbsetbg -t /home/atsutane/.wallpaper
