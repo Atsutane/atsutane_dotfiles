@@ -135,6 +135,7 @@ assign "ufo" ~
 assign "VirtualBox" ~
 assign "Wine" ~
 assign "Warsow" ~
+assign "skype" ~
 
 # Autostart
 exec fbsetbg -t /home/atsutane/.wallpaper
